@@ -44,7 +44,9 @@ module.exports = (_, argv) => ({
       name: "apple",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./Header" : "./src/components/Header.jsx"
+      },
       shared: {
         ...deps,
         react: {

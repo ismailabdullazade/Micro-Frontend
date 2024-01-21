@@ -43,7 +43,9 @@ module.exports = (_, argv) => ({
     new ModuleFederationPlugin({
       name: "samsung",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+        apple:"apple@http://localhost:3000/remoteEntry.js"
+      },
       exposes: {},
       shared: {
         ...deps,
