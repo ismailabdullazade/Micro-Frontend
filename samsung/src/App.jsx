@@ -11,6 +11,21 @@ const App = () => (
     <Suspense fallback={<div>Loading...</div>}>
       <Header/>
     </Suspense>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Header/>
+    </Suspense>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Header/>
+    </Suspense>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Header/>
+    </Suspense>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Header/>
+    </Suspense>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Header/>
+    </Suspense>
     <div>Name: samsung</div>
   </div>
 );
