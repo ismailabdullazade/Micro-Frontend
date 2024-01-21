@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 const Header = React.lazy(()=>import('apple/Header'))
 
 import "./index.scss";
-
+// TODO import all routes and expos
 const App = () => (
   <div className="mt-10 text-3xl mx-auto max-w-6xl">
     <Suspense fallback={<div>Loading...</div>}>
